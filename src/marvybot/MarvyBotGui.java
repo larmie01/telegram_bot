@@ -13,10 +13,7 @@ import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
-/**
- *
- * @author Opata Joshua
- */
+
 public class MarvyBotGui extends javax.swing.JFrame{
 
     /**
