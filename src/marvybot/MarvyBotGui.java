@@ -52,8 +52,8 @@ public class MarvyBotGui extends javax.swing.JFrame{
 
 
         public void onReplySent(SendMessage Message) {
-            model.addElement("reply: "+Message.getText());
-            System.out.println("reply: "+Message.getText());
+            model.addElement("Reply: "+Message.getText());
+            System.out.println("Reply: "+Message.getText());
         }
     
 
