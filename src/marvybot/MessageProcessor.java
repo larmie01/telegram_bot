@@ -31,7 +31,14 @@ public class MessageProcessor {
         {
             reply="Bye bye";
         }
-        
+        if(message.equals("miss u"))
+        {
+            reply="love u";
+        }
+         if(message.equals("hauwa"))
+        {
+            reply="she is beautiful";
+        }
         return reply;
     }
     
